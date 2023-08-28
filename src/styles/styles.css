@@ -1,0 +1,43 @@
+.contact_list {
+  background: #000000;
+  padding: 50px;
+  max-width: 500px;
+  border-radius: 5px;
+  margin: 20px auto;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bolder;
+  text-align: center;
+}
+.contact_adder {
+  background: #000000;
+  padding: 50px;
+  max-width: 500px;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+}
+.input {
+  padding: 10px;
+  width: 400px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  background-color: #ffffff;
+  padding: 10px 15px;
+  border: 2px solid #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  &:hover {
+    background: #000000;
+    color: #ffffff;
+  }
+}
